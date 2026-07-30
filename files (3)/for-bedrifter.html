@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For bedrifter — Substans</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap nav">
+    <a class="word" href="index.html">Substans<span>.</span></a>
+    <div class="nav-links">
+      <a class="switch" href="index.html">Forside</a>
+      <a class="switch current" href="for-bedrifter.html">For bedrifter</a>
+      <a class="switch" href="for-kandidater.html">For kandidater</a>
+      <a class="switch" href="kontakt.html">Kontakt oss</a>
+      <a class="cta" href="#kontakt">Ta kontakt</a>
+    </div>
+  </div>
+</header>
+
+<section class="hero" style="padding-bottom:40px;">
+  <div class="wrap">
+    <span class="mono">For bedrifter</span>
+    <h1 class="display">Vi finner selgerne som leverer.</h1>
+    <p class="lead">Vurderingen er bygget på å ha stått i faget selv, ikke bare på å lese en CV godt.</p>
+    <div class="hero-ctas">
+      <a class="btn-primary" href="#kontakt">Ta kontakt</a>
+      <a class="btn-ghost" href="#sjekkliste">Se sjekklisten →</a>
+    </div>
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<section class="body-text">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="mono">Hvorfor dette trengs</span>
+      <h2 class="display">Gode intervjuer og gode resultater er ikke det samme.</h2>
+    </div>
+    <p>De fleste feilansettelser i salg skyldes ikke mangel på kandidater. De skyldes at noen som presenterer seg godt i intervju, blir valgt fremfor noen som faktisk leverer. Å se forskjellen pålitelig krever egen erfaring fra salg, ikke bare erfaring fra å rekruttere.</p>
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<section id="sjekkliste">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="mono">Til deg som intervjuer selgere</span>
+      <h2 class="display">Fire spørsmål som avslører om noen faktisk leverer.</h2>
+      <p style="color:var(--ink-dim); margin-top:14px; font-size:0.98rem;">En forenklet versjon av det vi selv bruker. Fungerer i ditt neste intervju, uansett om du bruker oss eller ikke.</p>
+    </div>
+    <div class="checks">
+      <div class="check">
+        <span class="mono">01 · Konkret eksempel</span>
+        <h3>«Fortell om en gang du måtte tenke utenfor boksen for å lande et salg»</h3>
+        <p>Et ekte tilfelle kommer raskt, med detaljer. Et vagt svar trenger flere oppfølgingsspørsmål før det blir konkret.</p>
+      </div>
+      <div class="check">
+        <span class="mono">02 · Egne tall</span>
+        <h3>«Hvor mange ringer, booker og closer du i snitt?»</h3>
+        <p>Presise tall uten nøling er et godt tegn. Runde anslag på egen aktivitet er et varselsignal.</p>
+      </div>
+      <div class="check">
+        <span class="mono">03 · Selvbilde</span>
+        <h3>«Score deg selv gjennom hele salgsprosessen»</h3>
+        <p>Booking, discovery, demo, multi-threading, closing, nurturing, upsalg. Ingen er like sterke overalt. Jevnt høye score er sjelden et ærlig bilde.</p>
+      </div>
+      <div class="check">
+        <span class="mono">04 · Referansesjekk</span>
+        <h3>«Stemte pipelinen deres?»</h3>
+        <p>Spør tidligere ledere spesifikt om dette. Vanskelig å pynte på i etterkant, og sier mer enn et generelt «var hen flink».</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<section class="body-text">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="mono">Hvem vi jobber med</span>
+      <h2 class="display">SaaS- og teknologiselskaper i vekst.</h2>
+    </div>
+    <p>Senior Account Executives, enterprise-selgere og salgsledere. Ikke volumroller, ikke tidlig-fase selskaper uten budsjett til et ordentlig søk.</p>
+    <p class="note-mono" style="margin-top:20px;">Ingen betaling før noen er ansatt. Tre måneders garanti på hver plassering.</p>
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<section id="kontakt">
+  <div class="wrap">
+    <div class="contact-box">
+      <h2 class="display">Ta kontakt, så avklarer vi om det er en match.</h2>
+      <p>Fyll ut skjemaet, så svarer vi deg.</p>
+      <form name="kontakt-bedrift" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="kontakt-bedrift" />
+        <p class="hp-field"><label>Ikke fyll ut dette feltet: <input name="bot-field" /></label></p>
+        <div class="form-field">
+          <label for="navn-b">Navn</label>
+          <input type="text" id="navn-b" name="navn" required>
+        </div>
+        <div class="form-field">
+          <label for="epost-b">E-post</label>
+          <input type="email" id="epost-b" name="epost" required>
+        </div>
+        <div class="form-field">
+          <label for="melding-b">Melding</label>
+          <textarea id="melding-b" name="melding" required></textarea>
+        </div>
+        <button type="submit" class="form-submit">Send</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site wrap">
+  <span>Substans — Oslo</span>
+  <span>© 2026</span>
+</footer>
+
+</body>
+</html>
