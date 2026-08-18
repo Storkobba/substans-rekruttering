@@ -1,12 +1,12 @@
 :root{
-  --bg: #F5F2EA;
-  --panel: #EBE7DB;
-  --panel-line: #D6D0BE;
-  --ink: #201F19;
-  --ink-dim: #676052;
-  --accent: #2B3D5C;
-  --accent-dim: #7E8CA3;
-  --noise: #A39C8A;
+  --bg: #FFFFFF;
+  --panel: #E9F2FA;
+  --panel-line: #C8DFF0;
+  --ink: #102A43;
+  --ink-dim: #4F6B84;
+  --accent: #1D5D96;
+  --accent-dim: #7FADD4;
+  --noise: #A9C3D9;
   --radius: 2px;
   --max: 1080px;
 }
@@ -40,7 +40,7 @@ a{color:inherit;}
 }
 header.site{
   position:sticky; top:0; z-index:20;
-  background:rgba(245,242,234,0.9);
+  background:rgba(255,255,255,0.9);
   backdrop-filter:blur(6px);
   border-bottom:1px solid var(--panel-line);
 }
@@ -175,7 +175,7 @@ section{padding:60px 0;}
   display:block;
   transition:background .15s ease;
 }
-.split-card:hover{background:#DED7C2;}
+.split-card:hover{background:#DCEBF7;}
 .split-card .mono{margin-bottom:16px;}
 .split-card h3{
   font-family:'Space Grotesk', sans-serif;
@@ -356,7 +356,7 @@ footer.site{
   font-weight:500;
   cursor:pointer;
 }
-.form-submit:hover{ background:#3B4F73; }
+.form-submit:hover{ background:#164A78; }
 .hp-field{ position:absolute; left:-9999px; }
 
 :focus-visible{ outline:2px solid var(--accent); outline-offset:3px; }
